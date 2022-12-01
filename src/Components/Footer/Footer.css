@@ -1,0 +1,11 @@
+.footer{
+    position: absolute;
+    margin-top: 500px;
+    justify-content: space-around;
+    margin-left: -100px;
+}
+.footer-down{
+    position: absolute;
+    margin-top: 80px;
+    
+}

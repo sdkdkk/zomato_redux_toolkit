@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.productsWrapper {
+  /* display:flex;  */
+  justify-content: space-around;
+}
+.imgproduct {
+  margin-left: 190px;
+}
+.omfirstimg {
+  margin-left: 190px;
+}
+.productdetails {
+  text-align: left;
+}
+.col-9.producthead {
+  text-align: start;
+  margin-left: 190px;
+}
+.geeks {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.geeks img {
+  transition: 0.5s all ease-in-out;
+}
+
+.geeks:hover img {
+  transform: scale(0.95);
+}
+.omsecondimg{
+  margin-right: 300px;
+}

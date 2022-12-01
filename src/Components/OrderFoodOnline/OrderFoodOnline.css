@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.cardrestaurant {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 100px;
+  border: none;
+  cursor: pointer;
+}
+.cardresto-img-top {
+  height: 250px;
+}
+.restoinp {
+  font-size: 30px;
+  margin-top: 7px;
+}
+.Login:hover {
+  font-weight: 500;
+}
+.Logout:hover {
+  font-weight: 500;
+}
+.resto_name {
+  text-align: start;
+}
+.resto_type {
+  text-align: start;
+}
+.resto_location {
+  text-align: start;
+}
+.foodOnlineHeading {
+  text-align: start;
+}
+.restaurantrate {
+  text-align: end;
+}
