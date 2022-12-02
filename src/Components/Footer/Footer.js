@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="col-md-12 footer ">
       <div class="row">
-        <div class="col-md-4"><h1 style={{fontWeight:"800" }}>zomato</h1></div>
+        <div class="col-md-4 zomatofooter"><h1 style={{fontWeight:"800" }}>zomato</h1></div>
         <div class="col-md-3"></div>
         <div
           class="col-md-4"
@@ -78,17 +78,15 @@ const Footer = () => {
               <BsFacebook />
             </p>
           </span>
-          <p>
+          <p className="appstore"> 
             <img
               src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
-              style={{ height: "50px", width: "200" }}
               alt=""
             />
           </p>
-          <p>
+          <p className="googleplay">
             <img
               src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
-              style={{ height: "50px", width: "200" }}
               alt=""
             />
           </p>

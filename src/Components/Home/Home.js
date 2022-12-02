@@ -42,12 +42,11 @@ const Home = () => {
           <div
             class="card cardz"
             onClick={handleClick}
-            style={{ width: "20rem", cursor: "pointer" }}
+            style={{  cursor: "pointer" }}
           >
             <img
               src="https://wallpapercave.com/wp/wp8558388.jpg"
               class="online-img-top rounded"
-              style={{ height: "250px" }}
               alt="..."
             />
             <div class="card-body">
@@ -57,10 +56,9 @@ const Home = () => {
           </div>
         </div>
         <div class="col-md-3 ">
-          <div class="card cardz" style={{ width: "20rem" }}>
+          <div class="card cardz" >
             <img
               src="https://p4.wallpaperbetter.com/wallpaper/982/460/30/sunset-dining-by-the-sea-wallpaper-preview.jpg"
-              style={{ height: "250px" }}
               class="dining-img-top rounded"
               alt="..."
             />
@@ -71,10 +69,9 @@ const Home = () => {
           </div>
         </div>
         <div class="col-md-4 ">
-          <div class="card cardz " style={{ width: "20rem" }}>
+          <div class="card cardz " >
             <img
               src="https://wallpaperaccess.com/full/1490303.jpg"
-              style={{ height: "250px" }}
               class="card-img-top rounded"
               alt="..."
             />

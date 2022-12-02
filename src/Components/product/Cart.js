@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { remove } from "../../features/cartSlice";
 import { handleDecrement } from "../../features/cartSlice";
 import { handleIncrement } from "../../features/cartSlice";
+import "../../App.css";
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -50,10 +51,10 @@ const Cart = () => {
               />
             </div>
             <div class="col-7 mt-3 mx-5 productdetails border-bottom">
-              <h5 class="card-title">{product.foodName}</h5>
+              <h5 class="card-title foodnamecard">{product.foodName}</h5>
               <p class="card-text">Price: ₹ {product.price}</p>
 
-              <div className="input-group">
+              <div className="input-group cartInput">
                 <button
                   type="button"
                   onClick={() => {

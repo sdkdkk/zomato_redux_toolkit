@@ -37,3 +37,70 @@ body {
 .restaurantrate {
   text-align: end;
 }
+.cardbodyresto {
+  height: 150px;
+}
+.restorate {
+  background-color: green;
+  height: 22px;
+  border-radius: 25%;
+  color: white;
+  font-size: 15px;
+}
+
+@media (max-width: 1440px) {
+  .restoinp {
+    font-size: 20px;
+  }
+  input::placeholder {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cardresto-img-top {
+    height: 180px;
+  }
+  .cardbodyresto {
+    height: 100px;
+  }
+  .resto_name {
+    font-size: 10px;
+  }
+  .resto_type {
+    font-size: 10px;
+  }
+  .restorate {
+    height: 15px;
+    border-radius: 25%;
+    font-size: 10px;
+  }
+  .foodOnlineHeading {
+    font-size: 25px;
+  }
+  input::placeholder {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .foodOnlineHeading {
+    font-size: 20px;
+  }
+  .restoinp {
+    font-size: 15px !important;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+  .cardresto-img-top {
+    height: 145px;
+ }
+.mt-3.mx-5.productdetails.border-bottom {
+  text-align: end;
+}
+.foodOnlinezomato{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+}

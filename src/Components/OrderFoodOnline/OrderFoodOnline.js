@@ -26,10 +26,10 @@ const OrderFoodOnline = () => {
     <>
       <div class="container">
         <div className="d-flex">
-          <div class="col-3">
+          <div class="col-3 foodOnlinezomato">
             <h1 style={{ fontWeight: "700" }}>zomato</h1>
           </div>
-          <div class="col-4 ">
+          <div class="col-4 restoinp ">
             <input
               type="text"
               placeholder="Search for restaurant,cuisine or a dish"
@@ -76,26 +76,19 @@ const OrderFoodOnline = () => {
               .map((restaurant) => (
                 <>
                   <div class="col cardrestaurant  " onClick={handleClick}>
-                    <div class="card " style={{ width: "18rem" }}>
+                    <div class="card" style={{ width: "18rem" }}>
                       <img
                         src={restaurant.img}
                         class="cardresto-img-top"
                         alt="..."
                       />
-                      <div class="card-body" style={{ height: "150px" }}>
+                      <div class="card-body  cardbodyresto" >
                         <span className="d-flex ">
                           <h5 class="card-title resto_name">
                             {restaurant.name}
                           </h5>
                           <p
-                            className="mx-3  "
-                            style={{
-                              backgroundColor: "green",
-                              height: "22px",
-                              borderRadius: "25%",
-                              color: "white",
-                              fontSize: "15px",
-                            }}
+                            className="mx-3 restorate"
                           >
                             {restaurant.rate}☆{" "}
                           </p>

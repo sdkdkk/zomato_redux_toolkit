@@ -44,6 +44,7 @@
 .imgproduct {
   margin-left: 190px;
 }
+
 .omfirstimg {
   margin-left: 190px;
 }
@@ -66,6 +67,154 @@
 .geeks:hover img {
   transform: scale(0.95);
 }
-.omsecondimg{
+.omsecondimgh {
   margin-right: 300px;
+}
+
+@media (max-width: 1440px) {
+  .omfirstimg {
+    margin-left: 150px;
+    height: 450px;
+    width: 804px;
+  }
+  .omsecondimg {
+    height: 220px;
+  }
+  .omthirdimg {
+    height: 220px;
+  }
+  .imgproduct {
+    margin-left: 150px;
+  }
+  .col-9.producthead {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .imgproduct {
+    margin-left: 10px;
+    width: 100px;
+    height: 150px;
+  }
+  .omfirstimg {
+    margin-left: 100px;
+    height: 377px;
+    width: 579px;
+  }
+  .omsecondimg {
+    height: 190px;
+    width: 168px;
+  }
+  .omthirdimg {
+    height: 180px;
+    width: 168px;
+  }
+  .col-9.producthead {
+    margin-left: 105px;
+  }
+  .productsWrapper {
+    margin-left: 89px;
+  }
+  .restoinp {
+    font-size: 18px !important;
+  }
+  .col-9.producthead h1 {
+    font-size: 30px;
+  }
+  .cartWrapper {
+    margin-left: 90px;
+  }
+}
+@media (max-width: 768px) {
+  .omfirstimg {
+    height: 300px;
+    width: 406px;
+  }
+  .omsecondimg {
+    height: 140px;
+    width: 128px;
+  }
+  .omthirdimg {
+    height: 150px;
+    width: 128px;
+  }
+  .col-7.mt-3.mx-5.productdetails.border-bottom {
+    text-align: center;
+  }
+  .zomatohead {
+    margin-left: 34px;
+  }
+  .cartInput {
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 50% !important;
+    margin-left: 98px;
+  }
+}
+@media (max-width: 425px) {
+  .omfirstimg {
+    height: 146px;
+    width: 262px;
+    margin-left: 20px;
+  }
+  .omsecondimg {
+    height: 72px;
+    width: 67px;
+  }
+  .omthirdimg {
+    height: 67px;
+    width: 67px;
+  }
+  .restoinp {
+    font-size: 8px !important;
+    margin-top: 10px;
+  }
+  .col-9.producthead h1 {
+    font-size: 19px;
+  }
+  .col-9.producthead {
+    margin-left: 26px;
+  }
+  .productsWrapper {
+    margin-left: 4px;
+  }
+  .col-7.mt-3.mx-5.productdetails.border-bottom {
+    /* text-align: center; */
+    text-align: end;
+    width: 60%;
+    font-size: 10px;
+}
+.foodnameproduct{
+  font-size: 10px;
+}
+.zomatohead {
+  margin-left: 1px;
+}
+.cartWrapper {
+  margin-left: 3px;
+}
+.foodnamecard{
+  font-size: 10px;
+}
+.cartInput {
+  width: 50% !important;
+  margin-left: 128px;
+}
+.col-2.mt-3.Login {
+  display: none;
+}
+.col-2.mt-3.Logout {
+  display: none;
+}
+.foodOnlineHeading {
+  font-size: 12px !important;
+}
+.cardrestaurant {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 19px !important;
+}
 }

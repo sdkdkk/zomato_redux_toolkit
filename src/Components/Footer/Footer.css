@@ -9,3 +9,90 @@
     margin-top: 80px;
     
 }
+.appstore img{
+    height: 50px;
+    width: 200px;
+}
+.googleplay img{
+    height: 50px;
+    width: 200px;
+}
+
+@media(max-width: 1024px) {
+    .footer{
+        position: absolute;
+        margin-top: 350px;
+        justify-content: space-around;
+        margin-left: -60px;
+    }
+    .footer-down{
+        position: absolute;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .footer-down h3{
+        font-size: 18px;
+    }
+    .appstore img{
+        height: 40px;
+        width: 120px;
+    }
+    .googleplay img{
+        height: 40px;
+        width: 120px;
+    }
+  } 
+
+  @media(max-width: 1440px) {
+    .footer{
+        margin-top: 410px;
+    }
+    .footer-down h3{
+        font-size: 18px;
+    }
+    .footer-down{
+        font-size: 15px;
+    }
+    .appstore img{
+        height: 50px;
+        width: 160px;
+    }
+    .googleplay img{
+        height: 50px;
+        width: 160px;
+    }
+  } 
+
+  @media(max-width:768px){
+    .footer{
+        margin-top: 310px;
+    }
+    .footer-down h3{
+        font-size: 15px;
+    }
+    .footer-down{
+        font-size: 11px;
+    }
+    .zomatofooter h1{
+        font-size: 25px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+    .appstore img{
+        height: 30px;
+        width: 100px;
+    }
+    .googleplay img{
+        height: 30px;
+        width: 100px;
+    }
+  }
+  @media(max-width:425px){
+    .col-md-12.footer {
+        display: none;
+    }
+    .searchContainer {
+        top: 190px;
+    }
+
+  }

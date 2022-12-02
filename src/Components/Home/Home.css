@@ -67,10 +67,79 @@ input::placeholder {
   transition: all 2s ease; */
   transition: 0.5s all ease-in-out;
   overflow: hidden;
-
+  height: 250px;
 }
+
 .cardz img:hover {
   /* width: 10px;
   height: 300px; */
   transform: scale(0.95);
+}
+.cardz {
+  width: 20rem;
+ }
+
+
+/* tablet,landscape,low resolution laptop and desktop */
+@media(max-width: 1024px) {
+  .row {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    margin-left: -40px !important;
+  }
+  .cardz {
+   width: 15rem ;
+  }
+  .cardz img {
+    height: 180px;
+  }
+  .main_heading {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+} 
+
+@media(max-width: 1440px) {
+  .row {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    font-size: 15px;
+    margin-left: -40px !important
+  }
+  .searchContainer {
+    top: 217px;
+  }
+} 
+
+@media(max-width:768px){
+  .cardz {
+    width: 10rem ;
+   }
+   .cardz img {
+     height: 100px;
+   }
+   .description {
+    top: 115px;
+    font-size: 26px;
+   
+}
+}
+@media(max-width:425px){
+  .row {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 124px !important
+  }
+  .cardz img {
+    height: 100px;
+  }
+  .card.cardz {
+    margin-top: 10px;
+}
 }
