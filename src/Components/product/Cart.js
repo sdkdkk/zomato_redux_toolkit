@@ -22,6 +22,15 @@ const Cart = () => {
   const handleDec = (product) => {
     dispatch(handleDecrement(product));
   };
+  
+  const totalPrice = () => {
+    let total = 0;
+    products.forEach((item) => {
+      total += item.product_qty * item.price;
+    });
+    return total.toFixed(2);
+  };
+  
 
   return (
     <div>
@@ -89,6 +98,10 @@ const Cart = () => {
             </div>
           </div>
         ))}
+      </div>
+        <div className="total">
+        <span>SUBTOTAL:</span>
+        <span>${totalPrice()}</span>
       </div>
     </div>
   );
